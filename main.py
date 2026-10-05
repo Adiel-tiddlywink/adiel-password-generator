@@ -1,32 +1,37 @@
 # Write your pseudocode first!
-
-#imports
 import pyperclip
 import random
-#characters
-Websters = "abcdefghijklmnopqrstuvwxyz1234567890"
-#dictionary to save passwords
-# webber = {
+#dict for web:passsword
+Webster = {
 
-# }
-#ask for site/input
-input = ("What website ya' wanna add? ^.^")
-#generate password
-randomWebster = random.choice(Websters)
+}
 
-for i in range (100):
-    print(random.choice(Websters))
+#symbols
+Symbols = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()-=_+[],./<>?:;'"
 
-#show password
+#ask user for password
+x = input("What website would you like to add? ")
 
-#save
 
-#copy
 
-#reset psswrd str
+#create password
+random_Symbols = ""
+for i in range(7):
+    random_Symbols += random.choice(Symbols)
 
-#print all passwords
+#add to dict
+Webster[random_Symbols] = Webster
 
-#ask user for more psswrd
 
-#print psswrds again
+
+#pyperclip
+
+
+
+
+#print dict
+
+
+
+
+#input password^2
